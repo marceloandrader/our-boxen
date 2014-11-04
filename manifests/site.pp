@@ -95,6 +95,8 @@ node default {
     php => '5.5.9'
   }
 
+  include mysql
+
   # common, useful packages
   package {
     [
