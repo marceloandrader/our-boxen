@@ -64,15 +64,9 @@ node default {
   }
 
   # node versions
-  # include nodejs::v0_6
-  # include nodejs::v0_8
   include nodejs::v0_10
 
   # default ruby versions
-  # ruby::version { '1.9.3': }
-  # ruby::version { '2.0.0': }
-  # ruby::version { '2.1.0': }
-  # ruby::version { '2.1.1': }
   ruby::version { '2.1.2': }
 
   # Install a php version and set as the global default php
@@ -99,8 +93,10 @@ node default {
 
   include firefox
   include firefox::aurora
+  include firefox::nightly
 
   include chrome
+  include chrome::beta
   include chrome::canary
 
   include skype
@@ -143,6 +139,16 @@ node default {
   include vlc
 
   include keepassx
+
+  include wkhtmltopdf
+
+  include virtualbox
+
+  include joinme
+
+  include github_for_mac
+
+  include android_file_transfer
 
   # common, useful packages
   package {

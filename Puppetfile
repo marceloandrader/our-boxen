@@ -83,6 +83,11 @@ github "gimp",        "1.0.1"
 github "vagrant",     "3.2.0"
 github "vlc",         "1.1.0"
 github "keepassx",    "1.0.0"
+github "wkhtmltopdf", "1.2.1"
+github "virtualbox",  "1.0.13"
+github "joinme",      "1.0.1", :repo => "brianvans/puppet-joinme"
+github "github_for_mac","1.0.3"
+github "android_file_transfer","1.0.3"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
