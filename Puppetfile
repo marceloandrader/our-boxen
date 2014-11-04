@@ -57,7 +57,7 @@ github "stdlib"                , "4.2.1"   , :repo => "puppetlabs/puppetlabs-std
 github "sudo"                  , "1.0.0"
 github "xquartz"               , "1.2.1"
 
-# For marceloandrader
+# for marceloandrader
 github "php"                   , "1.2.5"
 github "mysql"                 , "1.99.18"
 github "firefox"               , "1.2.3"
@@ -90,6 +90,11 @@ github "github_for_mac"        , "1.0.3"
 github "android_file_transfer" , "1.0.3"
 github "heroku"                , "2.1.1"
 github "fig"                   , "1.0.0"
+github "jq"                    , "1.0.0"
+github "atom"                  , "1.0.0"
+github "adobe_reader"          , "1.2.0"
+github "memcached"             , "2.0.0"
+github "daisy_disk"            , "1.0.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.

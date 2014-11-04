@@ -154,6 +154,19 @@ node default {
 
   include fig
 
+  include go
+
+  include jq
+
+  include atom
+
+  inclue adobe_reader
+
+  include memcached
+  include memcached::lib
+
+  include daisy_disk
+
   # common, useful packages
   package {
     [
@@ -164,7 +177,8 @@ node default {
       'ack',
       'findutils',
       'gnu-tar',
-      'wget'
+      'wget',
+      'xz'
     ]:
   }
 
