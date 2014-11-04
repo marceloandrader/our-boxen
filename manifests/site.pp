@@ -150,6 +150,8 @@ node default {
 
   include android_file_transfer
 
+  include heroku
+
   # common, useful packages
   package {
     [
