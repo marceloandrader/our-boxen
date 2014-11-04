@@ -152,6 +152,8 @@ node default {
 
   include heroku
 
+  include fig
+
   # common, useful packages
   package {
     [

@@ -89,6 +89,7 @@ github "joinme"                , "1.0.1"   , :repo => "brianvans/puppet-joinme"
 github "github_for_mac"        , "1.0.3"
 github "android_file_transfer" , "1.0.3"
 github "heroku"                , "2.1.1"
+github "fig"                   , "1.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
