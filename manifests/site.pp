@@ -97,12 +97,58 @@ node default {
 
   include mysql
 
+  include firefox
+  include firefox::aurora
+
+  include chrome
+  include chrome::canary
+
+  include skype
+
+  include macvim
+
+  include libreoffice
+
+  include sequel_pro
+
+  include postgresapp
+
+  include iterm2::dev
+  include iterm2::colors::solarized_light
+
+  include pgadmin3
+
+  include cloudapp
+
+  include zsh
+
+  include tmux
+
+  include transmission
+
+  include caffeine
+
+  include dash
+
+  include dropbox
+
+  include charles
+
+  include flux
+
+  include gimp
+
+  class { 'vagrant': }
+
+  include vlc
+
   # common, useful packages
   package {
     [
       'ack',
       'findutils',
-      'gnu-tar'
+      'gnu-tar',
+      'wget'
     ]:
   }
 
