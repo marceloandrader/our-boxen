@@ -142,9 +142,15 @@ node default {
 
   include vlc
 
+  include keepassx
+
   # common, useful packages
   package {
     [
+      'coreutils',
+      'curl',
+      'gnu-sed',
+      'readline',
       'ack',
       'findutils',
       'gnu-tar',

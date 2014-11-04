@@ -82,6 +82,7 @@ github "flux",        "1.0.1"
 github "gimp",        "1.0.1"
 github "vagrant",     "3.2.0"
 github "vlc",         "1.1.0"
+github "keepassx",    "1.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
