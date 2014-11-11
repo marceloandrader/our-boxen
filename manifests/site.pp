@@ -152,7 +152,7 @@ node default {
 
   include heroku
 
-  include fig
+  # include fig
 
   include go
 
@@ -160,7 +160,7 @@ node default {
 
   include atom
 
-  inclue adobe_reader
+  include adobe_reader
 
   include memcached
   include memcached::lib
@@ -177,7 +177,6 @@ node default {
       'ack',
       'findutils',
       'gnu-tar',
-      'wget',
       'xz'
     ]:
   }
