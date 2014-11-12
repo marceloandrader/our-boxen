@@ -92,11 +92,8 @@ node default {
   include mysql
 
   include firefox
-  include firefox::aurora
-  include firefox::nightly
 
   include chrome
-  include chrome::beta
   include chrome::canary
 
   include skype
@@ -134,7 +131,7 @@ node default {
 
   include gimp
 
-  class { 'vagrant': }
+  include vagrant
 
   include vlc
 
@@ -151,8 +148,6 @@ node default {
   include android_file_transfer
 
   include heroku
-
-  # include fig
 
   include go
 
