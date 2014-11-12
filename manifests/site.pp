@@ -172,7 +172,8 @@ node default {
       'ack',
       'findutils',
       'gnu-tar',
-      'xz'
+      'xz',
+      'the_silver_searcher'
     ]:
   }
 
