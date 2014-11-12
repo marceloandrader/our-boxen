@@ -100,11 +100,7 @@ node default {
 
   include macvim
 
-  include libreoffice
-
   include sequel_pro
-
-  include postgresapp
 
   include iterm2::dev
   include iterm2::colors::solarized_light
@@ -156,7 +152,6 @@ node default {
   include adobe_reader
 
   include memcached
-  include memcached::lib
 
   include daisy_disk
 
