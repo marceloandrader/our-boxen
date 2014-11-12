@@ -115,8 +115,6 @@ node default {
 
   include zsh
 
-  include tmux
-
   include transmission
 
   include caffeine
@@ -173,7 +171,9 @@ node default {
       'findutils',
       'gnu-tar',
       'xz',
-      'the_silver_searcher'
+      'the_silver_searcher',
+      'tmux',
+      'reattach-to-user-namespace'
     ]:
   }
 
