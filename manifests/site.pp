@@ -147,6 +147,9 @@ node default {
 
   include go
 
+  go::version { '1.2.2': }
+  go::version { '1.3.3': }
+
   include jq
 
   include atom
