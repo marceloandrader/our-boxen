@@ -77,18 +77,6 @@ node default {
   # Install Composer globally on your PATH
   include php::composer
 
-  php::extension::mcrypt { 'mcrypt for 5.5.9':
-    php => '5.5.9'
-  }
-
-  php::extension::memcached { 'memcached for 5.5.9':
-    php => '5.5.9'
-  }
-
-  php::extension::xdebug { 'xdebug for 5.5.9':
-    php => '5.5.9'
-  }
-
   php::version { '5.6.3': }
 
   include mysql
