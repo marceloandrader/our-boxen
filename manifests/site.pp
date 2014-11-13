@@ -135,8 +135,8 @@ node default {
 
   include go
 
-  go::version { '1.2.2': }
-  go::version { '1.3.3': }
+  # go::version { '1.2.2': }
+  # go::version { '1.3.3': }
 
   include jq
 
@@ -146,7 +146,9 @@ node default {
 
   include memcached
 
-  include daisy_disk
+  # include daisy_disk
+
+  include projects::coordinated_care
 
   # common, useful packages
   package {

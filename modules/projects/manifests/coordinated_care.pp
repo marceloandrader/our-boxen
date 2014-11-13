@@ -3,8 +3,7 @@ class projects::coordinated_care {
   boxen::project { 'coordinated_care':
     mysql         => true,
     nginx         => true,
-    php           => '5.6.3',
-    source        => 'boxen/coordinated_care'
+    php           => '5.6.3'
   }
 }
 
