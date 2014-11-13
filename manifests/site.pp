@@ -89,6 +89,8 @@ node default {
     php => '5.5.9'
   }
 
+  php::version { '5.6.3': }
+
   include mysql
 
   include firefox
